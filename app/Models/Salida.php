@@ -1,0 +1,56 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * Class Salida
+ *
+ * @property $id
+ * @property $estado
+ * @property $fechayhora
+ * @property $tipo
+ * @property $nro
+ * @property $total_costo
+ * @property $destino
+ * @property $registrador_id
+ * @property $linea
+ * @property $created_at
+ * @property $updated_at
+ *
+ * @property Usuario $usuario
+ * @property Inventario[] $inventarios
+ * @package App
+ * @mixin \Illuminate\Database\Eloquent\Builder
+ */
+class Salida extends Model
+{
+    
+    protected $perPage = 20;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = ['estado', 'fechayhora', 'tipo', 'nro', 'total_costo', 'destino', 'registrador_id', 'linea'];
+
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function usuario()
+    {
+        return $this->belongsTo(\App\Models\Usuario::class, 'registrador_id', 'id');
+    }
+    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function inventarios()
+    {
+        return $this->hasMany(\App\Models\Inventario::class, 'id', 'salida');
+    }
+    
+}
