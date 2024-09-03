@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "37e7f6d63a0771265bd3354f0c24cfc9",
+=======
+    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
     "packages": [
         {
             "name": "brick/math",
@@ -1442,6 +1446,7 @@
             "time": "2024-01-04T16:10:04+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/ui",
             "version": "v4.5.2",
             "source": {
@@ -1505,6 +1510,8 @@
             "time": "2024-05-08T18:07:10+00:00"
         },
         {
+=======
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
             "name": "league/commonmark",
             "version": "2.5.3",
             "source": {
@@ -6740,6 +6747,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "11.3.2",
             "source": {
                 "type": "git",
@@ -6750,6 +6758,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8a4de85cc4a78c59dd31cc4ef454b0029f8440dc",
                 "reference": "8a4de85cc4a78c59dd31cc4ef454b0029f8440dc",
+=======
+            "version": "11.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "fe179875ef0c14e90b75617002767eae0a742641"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fe179875ef0c14e90b75617002767eae0a742641",
+                "reference": "fe179875ef0c14e90b75617002767eae0a742641",
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
                 "shasum": ""
             },
             "require": {
@@ -6763,8 +6783,13 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.2",
+<<<<<<< HEAD
                 "phpunit/php-code-coverage": "^11.0.6",
                 "phpunit/php-file-iterator": "^5.1.0",
+=======
+                "phpunit/php-code-coverage": "^11.0.5",
+                "phpunit/php-file-iterator": "^5.0.1",
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
                 "phpunit/php-invoker": "^5.0.1",
                 "phpunit/php-text-template": "^4.0.1",
                 "phpunit/php-timer": "^7.0.1",
@@ -6820,7 +6845,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/11.3.2"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.3.1"
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
             },
             "funding": [
                 {
@@ -6836,7 +6865,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-09-03T12:00:26+00:00"
+=======
+            "time": "2024-08-13T06:14:23+00:00"
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
         },
         {
             "name": "sebastian/cli-parser",

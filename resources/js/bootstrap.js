@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'bootstrap';
 
 /**
@@ -6,10 +7,13 @@ import 'bootstrap';
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
+=======
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
 import axios from 'axios';
 window.axios = axios;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+<<<<<<< HEAD
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
@@ -32,3 +36,5 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
 //     enabledTransports: ['ws', 'wss'],
 // });
+=======
+>>>>>>> b74367831dd8814575f63701300f1a811d3e6e91
