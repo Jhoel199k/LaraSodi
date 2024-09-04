@@ -49,6 +49,49 @@
                                 </li>
                             @endif
                         @else
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('articulos.index')}}">articulos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('cajas.index')}}">cajas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('clientes.index')}}">clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('consultas.index')}}">consultas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('entradas.index')}}">entradas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('facturas.index')}}">facturas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('inventarios.index')}}">inventarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('pedidos.index')}}">pedidos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('proveedores.index')}}">proveedores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('roles.index')}}">roles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('rutas.index')}}">rutas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('salidas.index')}}">salidas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('usuarios.index')}}">usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('ventas.index')}}">ventas</a>
+                            </li>
+
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
